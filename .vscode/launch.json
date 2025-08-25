@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+      {
+        "name": "Run MCP Server: math.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/servers/math.py",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Run MCP Server: tavily.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/servers/tavily.py",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Run MCP Server: weather.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/servers/weather.py",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Run MCP Server: yt_transcript.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/servers/yt_transcript.py",
+        "console": "integratedTerminal"
+      }
+      ,
+      {
+        "name": "Lang GraphAgent: agent.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/agent.py",
+        "console": "integratedTerminal"
+      }
+  ]
+}

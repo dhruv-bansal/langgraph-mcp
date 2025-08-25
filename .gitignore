@@ -175,3 +175,5 @@ cython_debug/
 
 # additional files
 backup.txt
+
+*.pckl
